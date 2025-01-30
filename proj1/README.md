@@ -1,1 +1,1 @@
-<h1>This is a  landing age inspired from dribble</h1>
+<h1>This is a  landing page inspired from dribble</h1>
