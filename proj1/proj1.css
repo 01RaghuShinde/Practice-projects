@@ -15,9 +15,9 @@ html, body{
 
 }
 nav{
-    height: 80px;
+    height: 60px;
     width: 100%;
-    /* background-color: red; */
+   
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -37,19 +37,20 @@ nav i {
 .center{
     
     width: 100%;
-    /* background-color: red; */
-    padding: 40px 50px;
+   
+    padding: 1px 50px;
 }
 .center h1{
-    font-size: 80px;
+    font-size: 66px;
     font-weight: 500;
-    line-height: 89px;
+    line-height: 80px;
+    
 }
 .centerin{
     height :200px;
-    background-color: red;
+    
     width: 100%;
-    margin-top:50px;
+    margin-top:30px;
     display: flex;
     justify-content: space-between;
 }
@@ -63,15 +64,42 @@ nav i {
     width: 20%;
 }
 .elem{
-    /* background-color: yellowgreen; */
+    
     margin: 5px;
     padding: 10px 0;
-    border-top: 3px solid;
+    border-top: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+}
+.elem i{
+    font-size: 20px;
+    opacity: 0;
 }
 .elem a{
     color: black;
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
+}
+.elem:hover i{
+    opacity: 1;
+    
+}
+.elem:hover{
+    background-color:rgb(231, 229, 229);
+
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+
+.bottom{
+    height:40%;
+    background-image: url(https://media.istockphoto.com/id/1383816654/photo/beautiful-afro-woman-with-bright-make-up.jpg?s=1024x1024&w=is&k=20&c=yS371__lwGn85Gxmws35zC74U3didjx1ixst-tA4k5g=);
+    background-size: cover;
+    background-position: 0 40%;
+    /* bottom: 40px; */
+    /* top: 200px; */
 }
